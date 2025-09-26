@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/logi.css">
 </head>
 <body>
-   <center>
-      <h1>Shipping Cal</h1>
+   
+      <div class="container">
+      <h1><img src="./image/motorbike.png" alt="">Shipping Cal.</h1>
       <form action="">
        
      
-        <label for="Destination">Destination :</label>
+        <label class="d1">Destination :</label>
          <select name="" id="Destination">
             <Option>Choose Preferred City</Option>
             <Option value="Lagos">lagos</Option>
@@ -20,13 +22,13 @@
          </select>
          <br>
          <br>
-         <label for="Weight">Load Weight :</label>
+         <label class="d2">Load Weight :</label>
          <input type="number" id="Weight" placeholder="kg" value="">
            <br>
          <br>
          <div>
             <input type="checkbox" id="Tick">
-            <label for="Tick here">Tick here For Fast Delivery 50% Charge</label>
+            <label for="Tick here">Tick here For Fast Delivery (50% Charge)</label>
          </div>
       </form>
        <br>
@@ -34,7 +36,8 @@
       <button type="button"  onclick="ability()"> Check </button>
 
       <p id="total"></p>
-   </center>
+      </div>
+   
     <script src="./logi.js"></script>
 </body>
 </html>
