@@ -39,7 +39,7 @@ function ability() {
     if(Tick){
         baseCost *=1.5;
     }
-
+  
 
 document.getElementById("total").innerText =
    "Your total amount of " + Weight + "kg" +
